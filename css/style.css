@@ -57,6 +57,9 @@ table {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 .top-navigation > .content {
 	/*margin: 0 auto;*/
@@ -169,7 +172,6 @@ button:hover {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	/*justify-content: center;*/
 	padding: 0;
   	margin: 0;
   	list-style: none;
