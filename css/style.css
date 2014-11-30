@@ -130,3 +130,72 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+/*.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+     styles to assist with debugging 
+    border: 1px solid black;
+    box-sizing: border-box;
+   /* height: auto;*/
+
+.content h2 {
+	font-size: 2.75rem;
+	text-align:center;
+	margin: 2em auto 2em auto;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+	text-align: center;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased
+}
+/*.devices h3 {
+	font-size: 1.7rem;
+	text-align:center;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+	font-weight: 380;
+	margin-top: 1.5rem;
+	-webkit-font-smoothing: antialiased	
+}*/
+.cases {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+  	justify-content: space-around;
+}
+.flex-item {
+	width: 33.33333%;
+	display: inline-block;
+	height: auto;
+	text-align: center;
+/* styles to assist with debugging */
+/*    border: 1px solid black;
+    box-sizing: border-box;*/
+}
+.flex-item h3 {
+	font-size: 1.7rem;
+	text-align:center;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+	font-weight: 380;
+	margin-top: 1.5rem;
+	-webkit-font-smoothing: antialiased	
+}
