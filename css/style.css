@@ -228,14 +228,12 @@ button:hover {
 }
 .social .icons {
 	text-align:center;
-	vertical-align:center;
 }
 .social .icons > li {
 /*	display: inline-block;
 	margin-left: 25px;
 	border-color: blue;
 	border-radius: 1rem;*/
-
 	border-radius: 1.25rem;
 	width: 2.5rem;
 	height: 1.25rem;
