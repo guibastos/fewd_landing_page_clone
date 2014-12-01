@@ -60,6 +60,7 @@ table {
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #eaebec;
 }
 .top-navigation > .content {
 	/*margin: 0 auto;*/
@@ -167,6 +168,7 @@ button:hover {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-bottom: 5rem;
 }
 .flex-container {
 	display: flex;
@@ -208,7 +210,27 @@ button:hover {
 	padding-bottom: 9.375rem;
 	text-align: center;
 }
-.social .icon > li {
+.social h5 {
+	font-size: 1rem;
+	text-align:center;
+	font-family: 'Roboto', sans-serif; 
+	color: black;
+	font-weight: 300;
+	margin-top: 1.5rem;
+	-webkit-font-smoothing: antialiased	
+}
+.social hr {
+/*	margin-top:8rem;*/
+/*	border-color:;*/
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .icons {
+	text-align:center;
+	vertical-align:center;
+}
+.social .icons > li {
 /*	display: inline-block;
 	margin-left: 25px;
 	border-color: blue;
@@ -216,17 +238,34 @@ button:hover {
 
 	border-radius: 1.25rem;
 	width: 2.5rem;
-	height: 2.5rem;
+	height: 1.25rem;
 	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid rgb(234, 235, 236);
-	border-image-source: initial;
+/*	border-image-source: initial;
 	border-image-slice: initial;
 	border-image-width: initial;
 	border-image-outset: initial;
-	border-image-repeat: initial;
-	padding: 0.625rem 0px;
+	border-image-repeat: initial;*/
+	padding: 0.625rem 0px 0.625rem 0px;
 	text-align: center;
 
 }
-
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.content .copy {
+	font-size: 1rem;
+	text-align:center;
+	font-family: 'Roboto', sans-serif; 
+	color: gray;
+	font-weight: 100;
+	margin-top: 0.5rem;
+	-webkit-font-smoothing: antialiased	
+}
+/*TWITTER: #50ABF1;
+FACEBOOK: #4B64A6;
+INSTAGRAM: #3C719D;*/
