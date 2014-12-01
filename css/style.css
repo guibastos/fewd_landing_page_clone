@@ -201,3 +201,32 @@ button:hover {
 	margin-top: 1.5rem;
 	-webkit-font-smoothing: antialiased	
 }
+.footer {
+	/*margin-top: 1rem;*/
+	background-color: white;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social .icon > li {
+/*	display: inline-block;
+	margin-left: 25px;
+	border-color: blue;
+	border-radius: 1rem;*/
+
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid rgb(234, 235, 236);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	padding: 0.625rem 0px;
+	text-align: center;
+
+}
+
